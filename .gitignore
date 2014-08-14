@@ -9,6 +9,7 @@
 !.aliases
 !.functions
 !.exports
+!.prompt
 
 # git configurations
 !.gitconfig
