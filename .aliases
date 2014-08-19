@@ -41,3 +41,11 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Music
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 5'"
+
+# Open apps
+alias preview='open -a Preview'
+alias finder='open -a Finder "`pwd`"'
+
+# Utils
+alias refresh='. ~/.profile'
+alias dpyc='find . -name "*.pyc" -exec rm -rf {} \;'
