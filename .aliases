@@ -34,7 +34,7 @@ alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && 
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # IP addresses
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ip="curl http://api.ipify.org/; echo"
 alias localip="ipconfig getifaddr en1"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
