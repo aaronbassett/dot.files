@@ -25,3 +25,8 @@ function gitexport(){
     mkdir -p "$1"
     git archive master | tar -x -C "$1"
 }
+
+# Grep over History
+function hgrep () {
+    history | grep ${*:1}
+}
