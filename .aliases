@@ -56,3 +56,5 @@ alias finder='open -a Finder "`pwd`"'
 # Utils
 alias refresh='. ~/.profile'
 alias dpyc='find . -name "*.pyc" -exec rm -rf {} \;'
+alias tn='tr -d "\n"'
+alias cpwd="pwd | tn | pbcopy"
