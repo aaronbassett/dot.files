@@ -7,6 +7,13 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# File operations
+alias cp="cp -ir"
+alias mv="mv -i"
+alias rm="rm -i"
+alias rmf="rm -fv"
+alias rmrf="rm -rfv"
+
 # Misc shortcuts
 alias cls="clear"
 
