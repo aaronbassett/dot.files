@@ -22,5 +22,6 @@
 # Autocomplete
 !.autocomplete
 
-# SSH
+# SSH & WGET
 !.stormssh
+!.wgetrc
