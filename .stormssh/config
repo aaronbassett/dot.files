@@ -1,0 +1,10 @@
+{
+    "aliases": {
+        "add": ["a"],
+        "delete": ["d"],
+        "edit": ["e", "u"],
+        "list": ["l"],
+        "search": ["s"]
+    }
+
+}

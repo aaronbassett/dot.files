@@ -21,3 +21,6 @@
 
 # Autocomplete
 !.autocomplete
+
+# SSH
+!.stormssh
