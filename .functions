@@ -26,6 +26,9 @@ function gitexport(){
     git archive master | tar -x -C "$1"
 }
 
+# Generate gitignore files
+function gi() { curl http://www.gitignore.io/api/$@ ;}
+
 # Grep over History
 function hgrep () {
     history | grep ${*:1}
