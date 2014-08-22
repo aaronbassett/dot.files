@@ -5,6 +5,7 @@
     c = commit -am
     s = status -s
     df = diff --color --color-words --abbrev
+    pom = push origin master
     # Working with logs
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
     ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
