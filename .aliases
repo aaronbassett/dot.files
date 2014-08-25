@@ -60,4 +60,4 @@ alias tn='tr -d "\n"'
 alias cpwd="pwd | tn | pbcopy"
 
 # Security
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+alias afk="spotify pause && /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
